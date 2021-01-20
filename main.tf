@@ -8,6 +8,7 @@ resource "azurerm_resource_group" "myresourcegroup" {
 
   tags = {
     environment = "Production"
+    cost_center = "BU1234"
   }
 }
 
